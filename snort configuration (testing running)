@@ -1,0 +1,14 @@
+# snort testing
+
+sudo /usr/local/snort/bin/snort \
+-c /usr/local/snort/etc/snort/snort.lua \
+-T
+
+=================================================================
+
+# snort running
+
+sudo /usr/local/snort/bin/snort \
+-i enp0s8 \
+-c /usr/local/snort/etc/snort/snort.lua \
+-A alert_fast
